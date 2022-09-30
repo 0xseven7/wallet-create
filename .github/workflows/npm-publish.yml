@@ -4,8 +4,9 @@
 name: wallet-create release
 
 on:
-  push
-    - main
+  push: 
+    branches: 
+      - main
 
 jobs:
   publish-npm:
