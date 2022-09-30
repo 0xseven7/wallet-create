@@ -1,0 +1,27 @@
+{
+  "name": "wallet-create",
+  "version": "0.0.1",
+  "bin": "bin/cli",
+  "main": "src/index.js",
+  "files": [
+    "bin/",
+    "src/"
+  ],
+  "homePage": "https://github.com/0xseven7/wallet-create",
+  "author": "0xseven7 <zhangxu1161@gmail.com>",
+  "dependencies": {
+    "bip39": "^3.0.4",
+    "esm": "^3.2.25",
+    "ethers": "^5.7.1",
+    "user": "^0.0.0",
+    "wallet-create": "^0.0.1"
+  },
+  "keywords": [
+    "bip39",
+    "mnemonics",
+    "bitcoin",
+    "ethereum",
+    "wallet"
+  ],
+  "license": "MIT"
+}
