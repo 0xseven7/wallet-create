@@ -13,11 +13,10 @@ function mnemonics() {
   console.log(m);
 }
 
-module.exports = function () {
-  const args = process.argv;
+module.exports = function (args) {
   if (args[2] === "wallet") {
     generateWallet();
   } else {
     mnemonics();
   }
-}();
+};

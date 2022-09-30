@@ -12,9 +12,7 @@
   "dependencies": {
     "bip39": "^3.0.4",
     "esm": "^3.2.25",
-    "ethers": "^5.7.1",
-    "user": "^0.0.0",
-    "wallet-create": "^0.0.1"
+    "ethers": "^5.7.1"
   },
   "keywords": [
     "bip39",
